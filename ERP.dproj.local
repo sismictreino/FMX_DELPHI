@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/12/04 21:53:21.000.179,=C:\Users\Rogerio_Nogueira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/14 23:09:47.000.391,=C:\Users\Rogerio_Nogueira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/06 21:33:45.000.331,=C:\Users\Rogerio_Nogueira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/19 22:42:45.121,=C:\Users\Rogerio_Nogueira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/19 22:45:48.088,D:\_Developer\Delphi\ERP\UfrmPrincipal.pas=C:\Users\Rogerio_Nogueira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/19 22:45:48.088,D:\_Developer\Delphi\ERP\UfrmPrincipal.fmx=C:\Users\Rogerio_Nogueira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2026/01/19 22:46:15.380,D:\_Developer\Delphi\ERP\Src\view\UfrmPrincipal.pas=D:\_Developer\Delphi\ERP\UfrmPrincipal.pas</Transaction>
+    <Transaction>2026/01/19 22:46:15.380,D:\_Developer\Delphi\ERP\Src\view\UfrmPrincipal.fmx=D:\_Developer\Delphi\ERP\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2026/01/19 22:46:24.269,D:\_Developer\Delphi\ERP\ERP.dproj=C:\Users\Rogerio_Nogueira\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/19 22:56:07.520,=D:\_Developer\Delphi\ERP\Unit1.pas</Transaction>
+    <Transaction>2026/01/19 23:03:08.033,D:\_Developer\Delphi\ERP\Src\view\router\erp.view.router.pas=D:\_Developer\Delphi\ERP\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

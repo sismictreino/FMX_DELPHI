@@ -1,0 +1,40 @@
+unit erp.view.router;
+
+interface
+
+type
+  Trouter = class
+  private
+    constructor create;
+    destructor Destroy; override;
+  public
+    class function New: Trouter;
+  end;
+
+implementation
+
+var Router :Trouter ;
+
+uses
+  Router4D;
+
+
+
+constructor Trouter.create;
+begin
+
+end;
+
+destructor Trouter.Destroy;
+begin
+
+  inherited;
+end;
+
+class function Trouter.New: Trouter;
+begin
+  Result := self.create;
+end;
+
+end.
+
