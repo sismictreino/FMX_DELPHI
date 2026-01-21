@@ -1,0 +1,69 @@
+object frmPageLayout: TfrmPageLayout
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lytCOntainer: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object MultiView1: TMultiView
+      NavigationPaneOptions.CollapsedWidth = 60.000000000000000000
+      Size.Width = 250.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Layout1: TLayout
+        Align = Client
+        Size.Width = 60.000000000000000000
+        Size.Height = 480.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle1: TRectangle
+          Align = Client
+          Size.Width = 60.000000000000000000
+          Size.Height = 480.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object GradientAnimation1: TGradientAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Stroke.Gradient'
+            StartValue.Points = <
+              item
+                Color = claBlack
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            StartValue.StartPosition.X = 0.500000000000000000
+            StartValue.StartPosition.Y = 1.000000000000000000
+            StartValue.StopPosition.X = 0.499999970197677600
+            StartValue.StopPosition.Y = 0.000000000000000000
+            StopValue.Points = <
+              item
+                Color = claWhite
+                Offset = 0.000000000000000000
+              end
+              item
+                Color = claWhite
+                Offset = 1.000000000000000000
+              end>
+            StopValue.StartPosition.X = 0.500000000000000000
+            StopValue.StartPosition.Y = 1.000000000000000000
+            StopValue.StopPosition.X = 0.499999970197677600
+            StopValue.StopPosition.Y = 0.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

@@ -23,7 +23,7 @@ constructor Trouter.create;
 begin
      Trouter4d
      .Switch
-     .Router('Home','')
+     .Router('Home',)
 end;
 
 destructor Trouter.Destroy;

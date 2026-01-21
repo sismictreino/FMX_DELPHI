@@ -219,6 +219,14 @@
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="Src\view\router\erp.view.router.pas"/>
+        <DCCReference Include="Src\view\pages\ufrmPageHome.pas">
+            <Form>frmPageHome</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="Src\view\layout\ufrmPageLayout.pas">
+            <Form>frmPageLayout</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
