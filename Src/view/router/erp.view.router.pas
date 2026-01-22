@@ -16,14 +16,15 @@ type
 
 implementation
 
+uses
+  ufrmPageHome, ufrmPageLayout;
+
 var
   Router: Trouter;
 
 constructor Trouter.create;
 begin
-     Trouter4d
-     .Switch
-     .Router('Home','')
+  Trouter4d.Switch.Router('Home', TfrmPageHome).Router('Home', TfrmPageLayout)
 end;
 
 destructor Trouter.Destroy;

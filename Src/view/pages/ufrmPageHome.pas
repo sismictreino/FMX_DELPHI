@@ -4,21 +4,19 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Layouts,router4d.Interfaces;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  router4d.Interfaces;
 
 type
-  TfrmPageHome = class(TForm,iRouter4DComponent)
+  TfrmPageHome = class(TForm, iRouter4DComponent)
     lytContainer: TLayout;
   private
     { Private declarations }
   public
-    function renderizar:TFmxObject;
-    procedure desrenderizar;
-
+    function render: TFmxObject;
+    procedure unrender;
 
   end;
-
 
 implementation
 
@@ -26,14 +24,15 @@ implementation
 
 { TfrmPageHome }
 
-procedure TfrmPageHome.desrenderizar;
+procedure TfrmPageHome.unrender;
 begin
 
 end;
 
-function TfrmPageHome.renderizar: TFmxObject;
+function TfrmPageHome.render: TFmxObject;
 begin
-     Result:=lytContainer;
+  Result := lytContainer;
 end;
 
 end.
+

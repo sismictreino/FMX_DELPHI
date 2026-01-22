@@ -3,7 +3,7 @@ program ERP;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  UfrmPrincipal in 'Src\view\UfrmPrincipal.pas' {Form1},
+  UfrmIndex in 'Src\view\UfrmIndex.pas' {Form1},
   erp.view.router in 'Src\view\router\erp.view.router.pas',
   ufrmPageHome in 'Src\view\pages\ufrmPageHome.pas' {frmPageHome},
   ufrmPageLayout in 'Src\view\layout\ufrmPageLayout.pas' {frmPageLayout};

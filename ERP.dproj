@@ -214,7 +214,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Src\view\UfrmPrincipal.pas">
+        <DCCReference Include="Src\view\UfrmIndex.pas">
             <Form>Form1</Form>
             <FormType>fmx</FormType>
         </DCCReference>
