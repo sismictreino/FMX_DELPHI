@@ -1,0 +1,61 @@
+unit ufrmComponenteMenu;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Objects;
+
+type
+  TComponentButtonMenu = class(TFrame)
+    lytContainer: TLayout;
+    Layout1: TLayout;
+    Layout2: TLayout;
+    LytImageMenu: TLayout;
+    Layout4: TLayout;
+    ImagemMenuIcone: TImage;
+    ImagemMenuSeta: TImage;
+    lytDeacricao: TLayout;
+    lblDescricao: TLabel;
+    lytSubMenu: TLayout;
+  private
+    procedure RedimensionaSubmenu;
+
+  public
+    class function New: TComponentButtonMenu;
+    function component: TFmxObject;
+    function Submenu(value: TFmxObject): TComponentButtonMenu;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+{ TComponentButtonMenu }
+
+class function TComponentButtonMenu.New: TComponentButtonMenu;
+begin
+  result := self.Create(nil);
+end;
+
+procedure TComponentButtonMenu.RedimensionaSubmenu;
+begin
+  for var I := 0 to Pred(lytSubMenu.ComponentCount) do
+
+
+end;
+
+function TComponentButtonMenu.Submenu(value: TFmxObject): TComponentButtonMenu;
+begin
+  result := self;
+  lytSubMenu.AddObject(value);
+end;
+
+function TComponentButtonMenu.component: TFmxObject;
+begin
+  Result := lytContainer;
+end;
+
+end.
+

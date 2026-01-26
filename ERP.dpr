@@ -6,7 +6,10 @@ uses
   UfrmIndex in 'Src\view\UfrmIndex.pas' {Form1},
   erp.view.router in 'Src\view\router\erp.view.router.pas',
   ufrmPageHome in 'Src\view\pages\ufrmPageHome.pas' {frmPageHome},
-  ufrmPageLayout in 'Src\view\layout\ufrmPageLayout.pas' {frmPageLayout};
+  ufrmPageLayout in 'Src\view\layout\ufrmPageLayout.pas' {frmPageLayout},
+  ufrmComponenteSidebar in 'Src\view\componentes\SideBar\ufrmComponenteSidebar.pas' {ComponenteSidebar: TFrame},
+  ufrmComponenteMenu in 'Src\view\componentes\ButtonMenu\ufrmComponenteMenu.pas' {ComponentButtonMenu: TFrame},
+  Services.utils in 'Src\Services\Services.utils.pas';
 
 {$R *.res}
 

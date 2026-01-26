@@ -227,6 +227,17 @@
             <Form>frmPageLayout</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="Src\view\componentes\SideBar\ufrmComponenteSidebar.pas">
+            <Form>ComponenteSidebar</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Src\view\componentes\ButtonMenu\ufrmComponenteMenu.pas">
+            <Form>ComponentButtonMenu</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="Src\Services\Services.utils.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
